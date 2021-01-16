@@ -7,6 +7,8 @@ import { PageComponent } from './page/page.component';
 import { BoletimComponent } from './portal/boletim/boletim.component';
 import { CalendariosComponent } from './portal/calendarios/calendarios.component';
 import { DisciplinasComponent } from './portal/disciplinas/disciplinas.component';
+import { ConjuntosComponent } from './portal/disciplinas/matematica/conjuntos/conjuntos.component';
+import { ConteudosComponent } from './portal/disciplinas/matematica/conteudos/conteudos.component';
 import { MatematicaComponent } from './portal/disciplinas/matematica/matematica.component';
 import { PortalComponent } from './portal/portal.component';
 
@@ -54,8 +56,18 @@ const routes: Routes = [
               },
               {
                 path: 'matematica',
-                component: MatematicaComponent
-              }
+                component: MatematicaComponent,
+                children: [
+                  {
+                    path: '',
+                    component: ConteudosComponent
+                  },
+                  {
+                    path: 'conjuntos',
+                    component: ConjuntosComponent
+                  }
+                ]
+              },
             ]
           },
           {

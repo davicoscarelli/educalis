@@ -47,6 +47,9 @@ export class DisciplinasComponent implements OnInit {
       case 'quim':
         console.log('Ainda não implantado :(');
         break;
+      default:
+        console.log('Ainda não implantado :(');
+        break;
     }
   }
 }

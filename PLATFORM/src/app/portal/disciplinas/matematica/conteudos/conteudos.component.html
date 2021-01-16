@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Matemática</h1>
+
+  <div class="d-flex pt-5">
+    <div *ngFor="let c of conteudo" >
+      <button class="btn btn-conteudo mr-4" (click)="onClickConteudo(c.id)" >{{ c.label }}</button>
+    </div>
+  </div>
+</div>

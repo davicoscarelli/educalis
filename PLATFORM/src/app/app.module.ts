@@ -17,6 +17,8 @@ import { DisciplinasComponent } from './portal/disciplinas/disciplinas.component
 import { CalendariosComponent } from './portal/calendarios/calendarios.component';
 import { BoletimComponent } from './portal/boletim/boletim.component';
 import { MatematicaComponent } from './portal/disciplinas/matematica/matematica.component';
+import { ConjuntosComponent } from './portal/disciplinas/matematica/conjuntos/conjuntos.component';
+import { ConteudosComponent } from './portal/disciplinas/matematica/conteudos/conteudos.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { MatematicaComponent } from './portal/disciplinas/matematica/matematica.
     DisciplinasComponent,
     CalendariosComponent,
     BoletimComponent,
-    MatematicaComponent
+    MatematicaComponent,
+    ConjuntosComponent,
+    ConteudosComponent
   ],
   imports: [
     BrowserModule,

@@ -44,3 +44,7 @@ input {
 .h-200 {
   height: 200px;
 }
+
+.bg-content {
+  background-color: #E5E5E5;
+}

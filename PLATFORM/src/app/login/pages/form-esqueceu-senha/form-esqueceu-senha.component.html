@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-md-5">
+    <app-illustration
+      [urlImage]="'/assets/img/login/forgot-password.png'"
+      [color]="'blue'"
+      [tela]="'esqueceuSenha'"
+    ></app-illustration>
+  </div>
+  <div class="col-md-7 d-flex justify-content-center">
+    <div class="container d-flex align-items-center flex-column pt-5">
+      <img src="../../../../assets/img/logo.png" class="w-40" />
+      <div>
+        <form [formGroup]="loginForm" class="d-flex flex-column pt-5">
+          <input
+            type="text"
+            name="email"
+            placeholder="E-mail"
+            formControlName="email"
+          />
+        </form>
+        <button type="button" class="btn btn-login-form">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>

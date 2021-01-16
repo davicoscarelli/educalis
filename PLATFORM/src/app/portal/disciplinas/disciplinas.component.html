@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Escolha a disciplina</h1>
+
+  <div class="d-flex pt-5">
+    <div class="d-flex flex-column justify-content-center text-center pr-3 div-click"
+        *ngFor="let d of disciplinas" (click)="onClickDisciplina(d.id)" >
+      <img [src]="d.urlImage">
+      <span class="pt-2">{{ d.label }}</span>
+    </div>
+  </div>
+</div>

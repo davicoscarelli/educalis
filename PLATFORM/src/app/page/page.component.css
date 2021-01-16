@@ -1,0 +1,84 @@
+body {
+  background: #E5E5E5;
+}
+
+.btn-login {
+  color: #fff;
+  background-color: #0098C7;
+  border-color: #0098C7;
+  box-shadow: 0px 4px 5px rgba(0, 66, 87, 0.3);
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+}
+
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 37px;
+}
+
+h1 > span {
+  color: #0098C7;
+  font-size: 60px;
+}
+
+ul > li > a {
+  color: #000;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.description {
+  font-size: 18px;
+}
+
+.bg-blue {
+  background: #B1D3DE;
+  border-radius: 20px;
+}
+
+.content-quem-somos {
+  padding: 50px;
+}
+
+.content-header {
+  padding: 50px;
+}
+
+.font-white {
+  color: #fff;
+}
+
+.pl-8 {
+  padding-left: 6rem!important;
+}
+
+.content-estrutura {
+  padding: 50px;
+}
+
+.par-2 {
+  font-size: 20px;
+}
+
+.img-estrutura {
+  padding: 50px;
+  width: 60%;
+}
+
+.container-img {
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  background: #CFE0E5;
+}

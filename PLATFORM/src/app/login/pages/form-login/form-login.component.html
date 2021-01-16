@@ -1,0 +1,37 @@
+<div class="row">
+  <div class="col-md-5">
+    <app-illustration
+    [urlImage]="'../assets/img/login/login.png'"
+    [color]="'red'"
+    [tela]="'login'"
+  ></app-illustration>
+  </div>
+  <div class="col-md-7 d-flex justify-content-center">
+    <div class="container d-flex align-items-center flex-column pt-5">
+    <img src="../../../../assets/img/logo.png" class="w-40" />
+    <div>
+      <form [formGroup]="loginForm" class="d-flex flex-column pt-5">
+        <input
+          type="text"
+          name="matricula"
+          placeholder="Matrícula"
+          formControlName="matricula"
+        />
+        <input
+          type="password"
+          name="senha"
+          placeholder="Senha"
+          formControlName="senha"
+        />
+      </form>
+      <button type="button" class="btn btn-login-form">Entrar</button>
+    </div>
+
+    <div class="d-flex flex-row justify-content-between w-55 pt-5">
+      <a [routerLink]="[ '/login/criar-conta']">Criar conta</a>
+      <a [routerLink]="[ '/login/esqueceu-senha']">Esqueceu a senha</a>
+    </div>
+  </div>
+
+  </div>
+</div>

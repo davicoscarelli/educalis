@@ -1,0 +1,42 @@
+<div class="d-flex" id="wrapper">
+  <div class="sidenav-portal border-right">
+    <div class="sidebar-heading pt-4 pb-5 text-center">
+      <img src="../../assets/img/icon.png" width="100px" />
+    </div>
+    <div class="list-group list-group-flush pl-2">
+      <a *ngFor="let item of menu"
+        [routerLink]="[ item.url ]"
+        routerLinkActive="active"
+        class="list-group-item list-group-item-action bg-transparent list-sidenav"
+        ><fa-icon [icon]="item.icon" class="pr-2"></fa-icon>{{ item.label }}</a
+      >
+    </div>
+  </div>
+
+  <div class="w-100">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-transparent"
+    >
+      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link d-flex flex-column text-center item-nav" href="#">
+              <fa-icon class="icon" [icon]="faBookReader"></fa-icon>
+              <span>Professores</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex flex-column text-center item-nav pl-4 pd-3" href="#">
+              <fa-icon class="icon" [icon]="faSignOutAlt"></fa-icon>
+              <span>Sair</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

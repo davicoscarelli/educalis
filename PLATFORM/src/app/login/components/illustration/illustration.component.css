@@ -1,0 +1,28 @@
+.blue {
+  background: #CFE0E5;
+}
+
+.red {
+  background: #F5DCDC;
+}
+
+.image {
+  position: relative;
+  padding: 45px 0;
+}
+
+.criarConta {
+  width: 102%;
+  right: -90px;
+}
+
+.login {
+  right: -10px;
+  width: 121%;
+}
+
+.esqueceuSenha {
+  width: 112%;
+  right: -90px;
+  padding: 96px 0;
+}

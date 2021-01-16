@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-form-esqueceu-senha',
@@ -10,7 +11,7 @@ export class FormEsqueceuSenhaComponent implements OnInit {
 
   loginForm: FormGroup;
 
-  constructor(private formBuilder: FormBuilder) { }
+  constructor(private formBuilder: FormBuilder, private route: Router) { }
 
   ngOnInit(): void {
     this.createForm();
@@ -22,4 +23,7 @@ export class FormEsqueceuSenhaComponent implements OnInit {
     });
   }
 
+  esqueceuSenha() {
+    this.route.navigate(['/login']);
+  }
 }

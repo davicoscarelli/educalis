@@ -36,3 +36,11 @@ input {
 .w-40 {
   width: 40%;
 }
+
+.w-90 {
+  width: 90%;
+}
+
+.h-200 {
+  height: 200px;
+}

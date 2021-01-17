@@ -14,6 +14,21 @@ input {
   box-shadow: inset 0px 4px 4px rgba(19, 19, 19, 0.15);
 }
 
+textarea {
+  background: #FFFFFF;
+  border: 1px solid #191919;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 391px;
+  height: 135px;
+  margin-top: 15px;
+  box-shadow: inset 0px 4px 4px rgba(19, 19, 19, 0.15);
+}
+
+textarea::placeholder {
+  padding-top: 15px;
+}
+
 ::placeholder {
   padding-left: 15px;
 }

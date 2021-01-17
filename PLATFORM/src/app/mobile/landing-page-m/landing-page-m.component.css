@@ -21,6 +21,7 @@
   font-size: 30px;
   color: #004257;
   padding-top: 30px;
+  text-align: center;
 }
 
 
@@ -71,6 +72,6 @@ footer {
   border-color: #0098C7;
   box-shadow: 0px 4px 5px rgba(0, 66, 87, 0.3);
   border-radius: 10px;
-  height: 40px;
-  width: 90px;
+  height: 50px;
+  width: 320px;
 }

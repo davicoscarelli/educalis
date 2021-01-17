@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import {
   faRocket,
@@ -17,12 +18,23 @@ export class LandingPageComponent implements OnInit {
   faEye = faEye;
   faGem = faGem;
 
-  constructor(private route: Router) { }
+  formContribua: FormGroup;
+
+  constructor(private route: Router, private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
+    this.crateForm();
   }
 
   redirectLogin() {
     this.route.navigate(['login']);
+  }
+
+  crateForm() {
+    this.formContribua = this.formBuilder.group({
+      nome: [null, [Validators.required]],
+      cidade: [null, [Validators.required]],
+      formaContribuicao: [null, [Validators.required]],
+    });
   }
 }

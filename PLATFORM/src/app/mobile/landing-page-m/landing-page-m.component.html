@@ -8,35 +8,24 @@
 </div>
 <div class="container" id="inicio">
   <div class="content-header text-center">
-      <h1 class="title">Expandindo as barreiras da <span>Educação!</span></h1>
-      <p class="description pt-5">
-        O Educalis é um projeto inovador que torna possível a Educação a
-        Distância para estudantes de baixa renda, com dificuldades de mobilidade
-        urbana ou sem acesso a internet!
+      <h1 class="title">Expandindo as fronteiras da <span>Educação!</span></h1>
+      <p class="description text-left pt-5">
+        O Educalis é um projeto inovador que torna possível a Educação a Distância para estudantes de baixa renda, com dificuldades de mobilidade urbana ou sem acesso a internet!
       </p>
       <button type="button" class="btn btn-login mt-3" (click)="redirectLogin()">Login</button>
   </div>
 </div>
 
 <div class="container bg-blue mt-5" id="quem-somos">
-  <div class="text-center">
+  <div class="text-left">
     <h1 class="secondary-title">Quem somos</h1>
     <div class="pt-3 d-flex align-items-center flex-column">
       <div>
         <p class="description">
-          Educalis foi criada pela união de jovens multidisciplinares com
-          propósito de democratizar o acesso de comunidades com dificuldades de
-          mobilidade urbana através da utilização de tecnologias. Juntamos as
-          últimas tecnologias de hardware e software para criar nosso produto
-          final com materiais de primeira linha e baixo custo de forma
-          sustentável.
+          Educalis foi criada pela união de jovens multidisciplinares com propósito de democratizar o acesso de comunidades com dificuldades de mobilidade urbana através da utilização de tecnologias. Juntamos as últimas tecnologias de hardware e software para criar nosso produto final com materiais de primeira linha e baixo custo de forma sustentável.
           <br />
           <br />
-          O sistema funciona em uma rede local, sem necessidade de internet, no
-          qual será mediado pelo nosso Ambiente Virtual de Aprendizagem (AVA).
-          Nesse AVA as instituições de ensino poderão disponibilizar material
-          didático, informações, realizar aulas com foco no processo de ensino e
-          aprendizagem.
+          O sistema funciona em uma rede local, sem necessidade de internet, no qual será mediado pelo nosso Ambiente Virtual de Aprendizagem (AVA). Nesse AVA as instituições de ensino poderão disponibilizar material didático, informações, realizar aulas com foco no processo de ensino e aprendizagem.
         </p>
       </div>
       <div class="d-flex align-items flex-column pt-5">
@@ -64,18 +53,16 @@
   </div>
 </div>
 
-<div class="container mt-3" id="quem-somos">
-  <div class="text-center">
+<div class="container mt-3" id="estrutura">
+  <div class="text-left">
     <h1 class="secondary-title">Estrutura</h1>
     <div class="pt-3 d-flex align-items-center flex-column">
       <div>
         <p class="description">
-          O fator chave para a funcionalidade do projeto é a infraestrutura
-          responsável por propagar nossa plataforma para estudantes sem conexão com
-          internet. Para que isso seja possível ultilizamos um conjunto dispositivos
-          movidos a energia solar (nomeados por nós como "E-hubs"), conectados sem
-          fio entre si, que criam uma rede a qual pode ser acessada por qualquer
-          pessoa com um smartphone ou computador.
+          O fator chave para a funcionalidade do projeto é a infraestrutura responsável por propagar nossa plataforma para estudantes sem conexão com internet.
+          <br>
+          <br>
+          Para que isso seja possível ultilizamos um conjunto de dispositivos movidos a energia solar (nomeados por nós como "E-hubs"), conectados sem fio entre si, que criam uma rede a qual pode ser acessada por qualquer pessoa com um smartphone ou computador.
         </p>
       </div>
       <div class="d-flex flex-column pt-3">
@@ -85,17 +72,57 @@
     </div>
 
     <p class="description">
-      A usabilidade é simples, basta que o aluno acesse a rede Wi-Fi gerada pelo
-      E-hub mais próximo. Ao conectar-se, o estudante tem acesso a nossa
-      plataforma de ensino virtual, contendo materiais didáticos para todas as
-      idades. A plataforma foi pensada por uma equipe de profissionais para
-      tornar o aprendizado a distância mais proveitoso, tornando assim eficiente
-      o ensino por meio de nosso ecossistema.
+      A usabilidade é simples, basta que o aluno acesse a rede Wi-Fi gerada pelo E-hub mais próximo. Ao conectar-se, o estudante tem acesso a nossa plataforma de ensino virtual, contendo materiais didáticos para todas as áreas.
+      <br>
+      <br>
+      A plataforma foi pensada por uma equipe de profissionais para tornar o aprendizado a distância mais proveitoso, refletindo em um processo de ensino mais eficiente por meio do nosso ecossistema.
     </p>
 
     <div class="container-img pt-3 pb-3">
       <img src="../../../assets/img/illustration-estrutura.png" class="w-100 pt-3 pb-5">
     </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-3" id="contribua">
+  <div class="text-left">
+    <h1 class="secondary-title">Contribua</h1>
+    <div class="pt-3 d-flex align-items-center flex-column">
+      <div>
+        <p class="description">
+          Quer ajudar a Educalis a chegar nos mais de 6 milhões de estudantes  sem acesso a internet no Brasil? Seja um patricionador e nos ajude a propagar a educação para quem não tem acesso a esse direito!
+          <br>
+          <br>
+          Você pode ajudar doando equipamentos como celulares, tablets e computadores para nossos jovens. Basta preencher o formulário abaixo que entraremos em contato com você!
+        </p>
+      </div>
+      <div class="w-100 pb-5">
+        <form [formGroup]="formContribua" class="d-flex flex-column pt-3">
+          <input
+            type="text"
+            name="nome"
+            placeholder="Nome"
+            formControlName="nome"
+            class="w-100"
+          />
+          <input
+            type="text"
+            name="cidade"
+            placeholder="Cidade/Estado"
+            formControlName="cidade"
+            class="w-100"
+          />
+          <textarea
+            type="text"
+            name="formaContribuicao"
+            placeholder="Digite aqui como você gostaria de contribuir"
+            formControlName="formaContribuicao"
+            class="w-100"
+          ></textarea>
+        </form>
+        <button type="button" class="btn btn-login-form">Enviar</button>
+      </div>
     </div>
   </div>
 </div>

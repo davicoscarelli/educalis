@@ -1,0 +1,21 @@
+.card-boletim {
+  background: #FAFAFA;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.25), inset 0px 2px 5px -1px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 30px;
+  width: 220px;
+}
+
+.professor {
+  font-weight: bold;
+}
+
+.pontos {
+  font-weight: bold;
+  color: #004257;
+}
+
+.title {
+  font-size: 24px;
+}

@@ -19,6 +19,9 @@ import { BoletimComponent } from './portal/boletim/boletim.component';
 import { MatematicaComponent } from './portal/disciplinas/matematica/matematica.component';
 import { ConjuntosComponent } from './portal/disciplinas/matematica/conjuntos/conjuntos.component';
 import { ConteudosComponent } from './portal/disciplinas/matematica/conteudos/conteudos.component';
+import { ProfessoresComponent } from './portal/professores/professores.component';
+import { ProfessoresMatematicaComponent } from './portal/professores/professores-matematica/professores-matematica.component';
+import { ListaProfessoresComponent } from './portal/professores/lista-professores/lista-professores.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +36,10 @@ import { ConteudosComponent } from './portal/disciplinas/matematica/conteudos/co
     BoletimComponent,
     MatematicaComponent,
     ConjuntosComponent,
-    ConteudosComponent
+    ConteudosComponent,
+    ProfessoresComponent,
+    ProfessoresMatematicaComponent,
+    ListaProfessoresComponent
   ],
   imports: [
     BrowserModule,

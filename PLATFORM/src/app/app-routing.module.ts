@@ -11,6 +11,8 @@ import { ConjuntosComponent } from './portal/disciplinas/matematica/conjuntos/co
 import { ConteudosComponent } from './portal/disciplinas/matematica/conteudos/conteudos.component';
 import { MatematicaComponent } from './portal/disciplinas/matematica/matematica.component';
 import { PortalComponent } from './portal/portal.component';
+import { ListaProfessoresComponent } from './portal/professores/lista-professores/lista-professores.component';
+import { ProfessoresMatematicaComponent } from './portal/professores/professores-matematica/professores-matematica.component';
 
 
 const routes: Routes = [
@@ -77,7 +79,20 @@ const routes: Routes = [
           {
             path: 'boletim',
             component: BoletimComponent
-          }
+          },
+          {
+            path: 'professores',
+            children: [
+              {
+                path: '',
+                component: ListaProfessoresComponent
+              },
+              {
+                path: 'matematica',
+                component: ProfessoresMatematicaComponent,
+              }
+            ]
+          },
         ]
       },
     ]

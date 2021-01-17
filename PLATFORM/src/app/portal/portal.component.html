@@ -20,7 +20,8 @@
       <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link d-flex flex-column text-center item-nav" href="#">
+            <a class="nav-link d-flex flex-column text-center item-nav" [routerLink]="[ goToProfessores() ]"
+            routerLinkActive="active">
               <fa-icon class="icon" [icon]="faBookReader"></fa-icon>
               <span>Professores</span>
             </a>

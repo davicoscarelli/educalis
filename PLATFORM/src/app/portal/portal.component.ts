@@ -5,6 +5,7 @@ import {
   faSignOutAlt,
 } from '@fortawesome/free-solid-svg-icons';
 import { faUser, faCalendarAlt } from '@fortawesome/free-regular-svg-icons';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-portal',
@@ -12,6 +13,7 @@ import { faUser, faCalendarAlt } from '@fortawesome/free-regular-svg-icons';
   styleUrls: ['./portal.component.css'],
 })
 export class PortalComponent implements OnInit {
+
   faUser = faUser;
   faCalendarAlt = faCalendarAlt;
   faBookOpen = faBookOpen;
@@ -36,7 +38,17 @@ export class PortalComponent implements OnInit {
     },
   ];
 
-  constructor() {}
+  constructor(private route: Router) {}
 
   ngOnInit(): void {}
+
+  goToProfessores() {
+    const redirect =
+      this.route.url === '/portal/disciplinas/matematica'
+        ? 'professores/matematica'
+        : this.route.url === '/portal/disciplinas/matematica/conjuntos'
+        ? 'professores/matematica'
+        : 'professores';
+    return redirect;
+  }
 }

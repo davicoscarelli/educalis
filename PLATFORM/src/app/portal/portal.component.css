@@ -25,6 +25,10 @@ fa-icon > .list {
   color: #666666;
 }
 
+.item-nav.active {
+  color: #0098C7 !important;
+}
+
 .list-sidenav {
   border: 0;
   color: #fff;
@@ -34,6 +38,10 @@ fa-icon > .list {
 .item-nav > span {
   font-weight: bold;
   font-size: 20px;
+}
+
+.item-nav > span.active {
+  color: #0098C7 !important;
 }
 
 .list-group-item.active {

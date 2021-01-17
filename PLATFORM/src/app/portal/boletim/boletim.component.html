@@ -1,1 +1,11 @@
-<p>boletim works!</p>
+<div class="container">
+  <h1>Boletim</h1>
+
+  <div class="d-flex pt-5">
+    <div class="d-flex flex-column align-items-center card-boletim" *ngFor="let item of boletim">
+      <p class="title">{{item.materia | uppercase}}</p>
+      <p class="pt-2 professor"><fa-icon class="icon" [icon]="faBookReader"></fa-icon> {{ item.professor }}</p>
+      <p class="pt-2 pontos"><fa-icon class="icon" [icon]="faStar"></fa-icon> {{ item.pontos }} pontos</p>
+    </div>
+  </div>
+</div>

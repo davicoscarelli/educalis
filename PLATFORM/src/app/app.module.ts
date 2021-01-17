@@ -30,6 +30,14 @@ import { FormEsqueceuSenhaMComponent } from './mobile/login/form-esqueceu-senha-
 import { FormCriarContaMComponent } from './mobile/login/form-criar-conta-m/form-criar-conta-m.component';
 import { PortalMComponent } from './mobile/portal-m/portal-m.component';
 import { DisciplinasMComponent } from './mobile/portal-m/disciplinas-m/disciplinas-m.component';
+import { MatematicaMComponent } from './mobile/portal-m/disciplinas-m/matematica-m/matematica-m.component';
+import { ConjuntosMComponent } from './mobile/portal-m/disciplinas-m/matematica-m/conjuntos-m/conjuntos-m.component';
+import { ConteudosMComponent } from './mobile/portal-m/disciplinas-m/matematica-m/conteudos-m/conteudos-m.component';
+import { CalendarioMComponent } from './mobile/portal-m/calendario-m/calendario-m.component';
+import { CalendarioCompletoComponent } from './mobile/portal-m/calendario-m/calendario-completo/calendario-completo.component';
+import { AtividadesComponent } from './mobile/portal-m/calendario-m/atividades/atividades.component';
+import { BoletimMComponent } from './mobile/portal-m/boletim-m/boletim-m.component';
+import { ProfessoresMComponent } from './mobile/portal-m/professores-m/professores-m.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +64,14 @@ import { DisciplinasMComponent } from './mobile/portal-m/disciplinas-m/disciplin
     FormCriarContaMComponent,
     PortalMComponent,
     DisciplinasMComponent,
+    MatematicaMComponent,
+    ConjuntosMComponent,
+    ConteudosMComponent,
+    CalendarioMComponent,
+    CalendarioCompletoComponent,
+    AtividadesComponent,
+    BoletimMComponent,
+    ProfessoresMComponent,
   ],
   imports: [
     BrowserModule,

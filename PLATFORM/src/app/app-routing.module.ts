@@ -9,8 +9,16 @@ import { FormCriarContaMComponent } from './mobile/login/form-criar-conta-m/form
 import { FormEsqueceuSenhaMComponent } from './mobile/login/form-esqueceu-senha-m/form-esqueceu-senha-m.component';
 import { FormLoginMComponent } from './mobile/login/form-login-m/form-login-m.component';
 import { TelaInicialComponent } from './mobile/login/tela-inicial/tela-inicial.component';
+import { BoletimMComponent } from './mobile/portal-m/boletim-m/boletim-m.component';
+import { AtividadesComponent } from './mobile/portal-m/calendario-m/atividades/atividades.component';
+import { CalendarioCompletoComponent } from './mobile/portal-m/calendario-m/calendario-completo/calendario-completo.component';
+import { CalendarioMComponent } from './mobile/portal-m/calendario-m/calendario-m.component';
 import { DisciplinasMComponent } from './mobile/portal-m/disciplinas-m/disciplinas-m.component';
+import { ConjuntosMComponent } from './mobile/portal-m/disciplinas-m/matematica-m/conjuntos-m/conjuntos-m.component';
+import { ConteudosMComponent } from './mobile/portal-m/disciplinas-m/matematica-m/conteudos-m/conteudos-m.component';
+import { MatematicaMComponent } from './mobile/portal-m/disciplinas-m/matematica-m/matematica-m.component';
 import { PortalMComponent } from './mobile/portal-m/portal-m.component';
+import { ProfessoresMComponent } from './mobile/portal-m/professores-m/professores-m.component';
 import { BoletimComponent } from './portal/boletim/boletim.component';
 import { CalendariosComponent } from './portal/calendarios/calendarios.component';
 import { DisciplinasComponent } from './portal/disciplinas/disciplinas.component';
@@ -153,15 +161,15 @@ const routes: Routes = [
                   },
                   {
                     path: 'matematica',
-                    component: MatematicaComponent,
+                    component: MatematicaMComponent,
                     children: [
                       {
                         path: '',
-                        component: ConteudosComponent
+                        component: ConteudosMComponent
                       },
                       {
                         path: 'conjuntos',
-                        component: ConjuntosComponent
+                        component: ConjuntosMComponent
                       }
                     ]
                   },
@@ -169,24 +177,25 @@ const routes: Routes = [
               },
               {
                 path: 'calendarios',
-                component: CalendariosComponent
-              },
-              {
-                path: 'boletim',
-                component: BoletimComponent
-              },
-              {
-                path: 'professores',
+                component: CalendarioMComponent,
                 children: [
                   {
                     path: '',
-                    component: ListaProfessoresComponent
+                    component: CalendarioCompletoComponent
                   },
                   {
-                    path: 'matematica',
-                    component: ProfessoresMatematicaComponent,
+                    path: 'atividades',
+                    component: AtividadesComponent
                   }
                 ]
+              },
+              {
+                path: 'boletim',
+                component: BoletimMComponent
+              },
+              {
+                path: 'professores',
+                component: ProfessoresMComponent
               },
             ]
           },

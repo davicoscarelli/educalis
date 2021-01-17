@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {
+  faBook,
   faBookOpen,
   faBookReader,
   faSignOutAlt,
@@ -15,6 +16,7 @@ import { Router } from '@angular/router';
 export class PortalComponent implements OnInit {
 
   faUser = faUser;
+  faBook = faBook;
   faCalendarAlt = faCalendarAlt;
   faBookOpen = faBookOpen;
   faBookReader = faBookReader;
@@ -23,7 +25,7 @@ export class PortalComponent implements OnInit {
   menu = [
     {
       label: 'Disciplinas',
-      icon: faUser,
+      icon: faBook,
       url: 'disciplinas',
     },
     {

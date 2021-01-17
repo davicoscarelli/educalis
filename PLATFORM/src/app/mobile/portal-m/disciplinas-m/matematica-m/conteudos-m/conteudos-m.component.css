@@ -1,0 +1,33 @@
+.header {
+  background-color: #004257;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  color: #fafafa;
+}
+
+.play {
+  color: #CCCCCC;
+  font-size: 30px;
+}
+
+.active {
+  color: #28A1C7;
+}
+
+label {
+  color: #004257;
+  padding-top: 10px;
+}
+
+.vl {
+  border-left: 4px solid #CCCCCC;
+  height: 40px;
+  margin-top: -8px;
+}
+
+.items {
+  justify-content: space-between;
+  margin-top: -10px;
+}

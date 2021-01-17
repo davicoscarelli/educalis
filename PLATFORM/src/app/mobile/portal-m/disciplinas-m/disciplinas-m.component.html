@@ -1,1 +1,14 @@
-<p>disciplinas-m works!</p>
+<div class="container">
+  <div class="d-flex justify-content-center">
+    <div class="container d-flex align-items-center flex-column pt-5">
+      <img src="../../../../assets/img/logo.png" class="w-100" />
+    </div>
+  </div>
+  <div class="d-flex align-items-center flex-wrap p-2 pt-3">
+    <div class="d-flex flex-column text-center p-2 div-click"
+        *ngFor="let d of disciplinas" (click)="onClickDisciplina(d.id)" >
+      <img [src]="d.urlImage">
+      <span class="pt-2">{{ d.label }}</span>
+    </div>
+  </div>
+</div>

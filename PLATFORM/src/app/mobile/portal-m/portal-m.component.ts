@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnChanges, OnInit, SimpleChange, SimpleChanges } from '@angular/core';
 import {
+  faBook,
   faBookOpen,
   faBookReader,
   faSignOutAlt,
@@ -14,6 +15,7 @@ import { faUser, faCalendarAlt } from '@fortawesome/free-regular-svg-icons';
 export class PortalMComponent implements OnInit {
 
   faUser = faUser;
+  faBook = faBook;
   faCalendarAlt = faCalendarAlt;
   faBookOpen = faBookOpen;
   faBookReader = faBookReader;
@@ -22,7 +24,7 @@ export class PortalMComponent implements OnInit {
   menu = [
     {
       label: 'Disciplinas',
-      icon: faUser,
+      icon: faBook,
       url: 'disciplinas',
     },
     {
@@ -35,11 +37,15 @@ export class PortalMComponent implements OnInit {
       icon: faBookOpen,
       url: 'boletim',
     },
+    {
+      label: 'Professores',
+      icon: faBookReader,
+      url: 'professores',
+    },
   ];
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }

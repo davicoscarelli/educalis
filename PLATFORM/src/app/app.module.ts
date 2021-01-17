@@ -22,6 +22,7 @@ import { ConteudosComponent } from './portal/disciplinas/matematica/conteudos/co
 import { ProfessoresComponent } from './portal/professores/professores.component';
 import { ProfessoresMatematicaComponent } from './portal/professores/professores-matematica/professores-matematica.component';
 import { ListaProfessoresComponent } from './portal/professores/lista-professores/lista-professores.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { ListaProfessoresComponent } from './portal/professores/lista-professore
     ConteudosComponent,
     ProfessoresComponent,
     ProfessoresMatematicaComponent,
-    ListaProfessoresComponent
+    ListaProfessoresComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,

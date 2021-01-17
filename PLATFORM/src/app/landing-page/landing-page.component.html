@@ -38,8 +38,8 @@
 <div class="container bg-blue mt-5" id="quem-somos">
   <div class="content-quem-somos">
     <h1>Quem somos</h1>
-    <div class="row pt-5 d-flex align-items-center">
-      <div class="col-md-6 pr-5">
+    <div class="pt-5 d-flex align-items-center flex-column">
+      <div>
         <p>
           Educalis foi criada pela união de jovens multidisciplinares com
           propósito de democratizar o acesso de comunidades com dificuldades de
@@ -56,21 +56,26 @@
           aprendizagem.
         </p>
       </div>
-      <div class="col-md-6 pl-8">
-        <p>
-          <span class="font-white">Missão:</span> melhorar a educação de
-          comunidades que tenham o acesso a escola precário através de
-          tecnologia acessível e baixo custo.
-          <br />
-          <br />
-          <span class="font-white">Visão:</span> diminuir os índices de
-          desigualdades oferecendo acesso a educação de qualidade de forma
-          remota.
-          <br />
-          <br />
-          <span class="font-white">Valores:</span> Responsabilidade, Inovação,
-          Acessibilidade, Sustentabilidade, Empatia, Comprometimento.
-        </p>
+      <div class="d-flex align-items justify-content-between w-100 pt-5">
+        <div class="text-center card-mvv">
+          <fa-icon class="icon" [icon]="faRocket"></fa-icon>
+          <p class="title">Missão</p>
+          <span class="description">Melhorar a educação de comunidades que tenham o acesso a escola precário através de
+            tecnologia acessível e baixo custo.</span>
+        </div>
+        <div class="text-center card-mvv">
+          <fa-icon class="icon" [icon]="faEye"></fa-icon>
+          <p class="title">Visão</p>
+          <span class="description">Diminuir os índices de
+            desigualdades oferecendo acesso a educação de qualidade de forma
+            remota.</span>
+        </div>
+        <div class="text-center card-mvv">
+          <fa-icon class="icon" [icon]="faGem"></fa-icon>
+          <p class="title">Valores</p>
+          <span class="description">Responsabilidade, Inovação,
+            Acessibilidade, Sustentabilidade, Empatia, Comprometimento.</span>
+        </div>
       </div>
     </div>
   </div>

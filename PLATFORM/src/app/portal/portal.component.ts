@@ -5,7 +5,7 @@ import {
   faSignOutAlt,
 } from '@fortawesome/free-solid-svg-icons';
 import { faUser, faCalendarAlt } from '@fortawesome/free-regular-svg-icons';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-portal',

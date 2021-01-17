@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 import { FormCriarContaComponent } from './login/pages/form-criar-conta/form-criar-conta.component';
 import { FormEsqueceuSenhaComponent } from './login/pages/form-esqueceu-senha/form-esqueceu-senha.component';
 import { FormLoginComponent } from './login/pages/form-login/form-login.component';
-import { PageComponent } from './page/page.component';
 import { BoletimComponent } from './portal/boletim/boletim.component';
 import { CalendariosComponent } from './portal/calendarios/calendarios.component';
 import { DisciplinasComponent } from './portal/disciplinas/disciplinas.component';
@@ -18,7 +18,7 @@ import { ProfessoresMatematicaComponent } from './portal/professores/professores
 const routes: Routes = [
   {
     path: '',
-    component: PageComponent
+    component: LandingPageComponent
   },
   {
     path: 'login',

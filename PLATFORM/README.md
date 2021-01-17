@@ -27,7 +27,7 @@ Uma realidade difícil de entender quando pensamos no mundo extremamente conecta
 
 Com a internet, os jovens podem se aprofundar nos estudos e se preparar melhor para as oportunidades de trabalho, pois quanto maior o nível de escolaridade, maiores as chances de conseguir um emprego.
 
-Fonte: EBC - Empresa Brasil Comunicação / IBGE
+<i>Fonte: EBC - Empresa Brasil Comunicação / IBGE</i>
 
 ## :bulb: Solução
 
@@ -99,9 +99,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## :heart: Nosso time dos sonhos
 
-- [Davi Coscarelli](https://www.linkedin.com/in/davicoscarelli)(Desenvolvedor)
-- [Joyce Souza](https://www.linkedin.com/in/joyce-souza-04819523/)(Negócios)
-- [Juliana Aintablian](https://www.linkedin.com/in/juliana-aintablian/)(Desenvolvedora)
-- [Leonardo Braga](https://www.linkedin.com/in/leonardobbarcelos/)(Educação)
-- [Luan Calil](https://www.linkedin.com/in/luancalil/)(UX Designer)
-- [Maira Manfro](https://www.linkedin.com/in/maira-gazzi-manfro-a1a7b4192/)(Marketing)
+- [Davi Coscarelli](https://www.linkedin.com/in/davicoscarelli) (Desenvolvedor)
+- [Joyce Souza](https://www.linkedin.com/in/joyce-souza-04819523/) (Negócios)
+- [Juliana Aintablian](https://www.linkedin.com/in/juliana-aintablian/) (Desenvolvedora)
+- [Leonardo Braga](https://www.linkedin.com/in/leonardobbarcelos/) (Educação)
+- [Luan Calil](https://www.linkedin.com/in/luancalil/) (UX Designer)
+- [Maira Manfro](https://www.linkedin.com/in/maira-gazzi-manfro-a1a7b4192/) (Marketing)

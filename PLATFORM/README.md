@@ -99,9 +99,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## :heart: Nosso time dos sonhos
 
-- [Davi Coscarelli](https://www.linkedin.com/in/davicoscarelli)
-- [Joyce Souza](https://www.linkedin.com/in/joyce-souza-04819523/)
-- [Juliana Aintablian](https://www.linkedin.com/in/juliana-aintablian/)
-- [Leonardo Braga](https://www.linkedin.com/in/leonardobbarcelos/)
-- [Luan Calil](https://www.linkedin.com/in/luancalil/)
-- [Maira Manfro](https://www.linkedin.com/in/maira-gazzi-manfro-a1a7b4192/)
+- [Davi Coscarelli](https://www.linkedin.com/in/davicoscarelli)(Desenvolvedor)
+- [Joyce Souza](https://www.linkedin.com/in/joyce-souza-04819523/)(Negócios)
+- [Juliana Aintablian](https://www.linkedin.com/in/juliana-aintablian/)(Desenvolvedora)
+- [Leonardo Braga](https://www.linkedin.com/in/leonardobbarcelos/)(Educação)
+- [Luan Calil](https://www.linkedin.com/in/luancalil/)(UX Designer)
+- [Maira Manfro](https://www.linkedin.com/in/maira-gazzi-manfro-a1a7b4192/)(Marketing)

@@ -40,7 +40,7 @@ Para mais informações acesse a Wiki desse repositório [clicando aqui!](https:
 
 ## :link: Links
 [Clique aqui](https://linktr.ee/educalis) Ou escaneie o QRCode!
-<p align="center">
+<p align="left">
   <img width="200" src="https://user-images.githubusercontent.com/48040161/104853678-c1a61780-58d8-11eb-9eaf-1ece1853afe2.png">
 </p>
 

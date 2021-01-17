@@ -37,3 +37,12 @@ Para mais informações acesse a Wiki desse repositório [clicando aqui!](https:
 - [Leonardo Braga](https://www.linkedin.com/in/leonardobbarcelos/) (Educação)
 - [Luan Calil](https://www.linkedin.com/in/luancalil/) (UX Designer)
 - [Maira Manfro](https://www.linkedin.com/in/maira-gazzi-manfro-a1a7b4192/) (Marketing)
+
+## :link: Links
+[Clique aqui](https://linktr.ee/educalis) Ou escaneie o QRCode!
+<p align="center">
+  <img width="200" src="https://user-images.githubusercontent.com/48040161/104853678-c1a61780-58d8-11eb-9eaf-1ece1853afe2.png">
+</p>
+
+
+

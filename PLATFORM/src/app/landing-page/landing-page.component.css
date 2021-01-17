@@ -9,16 +9,36 @@
   width: 90px;
 }
 
+.img-header {
+  width: 150%;
+  right: -50px;
+  position: absolute;
+  padding-top: 40px;
+}
+
+.title-header {
+  font-size: 55px;
+}
+
+.title-header > span {
+  color: #0098C7;
+  font-size: 60px;
+}
+
+.description-header {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  color: #191919;
+  width: 80%;
+}
+
 h1 {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 37px;
-}
-
-h1 > span {
-  color: #0098C7;
-  font-size: 60px;
 }
 
 ul > li > a {
@@ -48,6 +68,7 @@ ul > li > a {
 
 .content-header {
   padding: 50px;
+  margin-bottom: 140px;
 }
 
 .font-white {

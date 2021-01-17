@@ -1,5 +1,6 @@
 <h2 align="center"> 
 <img alt="Educalis logo" title="#Educalis" src="src/assets/img/readme/logo.png" width="250px" />
+Expandindo as fronteiras da educação
 </h2>
 
 <p align="center">
@@ -7,8 +8,6 @@
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/davicoscarelli/educalis">
 </p>
 
-<h3 align="center"> Educalis <br>
-Expandindo as fronteiras da educação </h3>
 
 <p align="center">
   <a href="#rotating_light-Problema">Problema</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;

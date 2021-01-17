@@ -150,7 +150,7 @@
       <div class="col-md-6">
         <img src="../../assets/img/contribua.png" class="w-100" />
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 d-flex align-items-center">
         <div class="pr-3 pl-3">
           <form [formGroup]="formContribua" class="d-flex flex-column pt-5">
             <input
@@ -165,6 +165,13 @@
               name="cidade"
               placeholder="Cidade/Estado"
               formControlName="cidade"
+              class="w-100"
+            />
+            <input
+              type="text"
+              name="email"
+              placeholder="E-mail"
+              formControlName="email"
               class="w-100"
             />
             <textarea

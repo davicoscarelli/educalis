@@ -34,6 +34,7 @@ export class LandingPageMComponent implements OnInit {
     this.formContribua = this.formBuilder.group({
       nome: [null, [Validators.required]],
       cidade: [null, [Validators.required]],
+      email: [null, [Validators.required]],
       formaContribuicao: [null, [Validators.required]],
     });
   }

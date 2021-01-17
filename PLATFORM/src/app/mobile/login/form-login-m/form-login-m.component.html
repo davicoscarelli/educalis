@@ -1,0 +1,25 @@
+<div class="d-flex justify-content-center">
+  <div class="container d-flex align-items-center flex-column pt-5">
+  <img src="../../../../assets/img/logo.png" class="w-100" />
+  <div class="w-100 pt-5 pr-3 pl-3">
+    <form [formGroup]="loginForm" class="d-flex flex-column">
+      <input
+        type="text"
+        name="matricula"
+        placeholder="Matrícula"
+        formControlName="matricula"
+      />
+      <input
+        type="password"
+        name="senha"
+        placeholder="Senha"
+        formControlName="senha"
+      />
+    </form>
+    <button type="button" class="btn btn-login-form" (click)="login()">Entrar</button>
+  </div>
+
+  <div class="d-flex justify-content-center w-55 pt-3">
+    <a [routerLink]="[ '/m/login/esqueceu-senha']">Esqueceu a senha</a>
+  </div>
+</div>

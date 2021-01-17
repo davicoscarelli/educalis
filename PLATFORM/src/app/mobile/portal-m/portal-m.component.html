@@ -1,0 +1,18 @@
+<div class="d-flex justify-content-center">
+  <div class="container d-flex align-items-center flex-column pt-5">
+    <img src="../../../../assets/img/logo.png" class="w-100" />
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+
+<footer class="footer">
+  <div class="d-flex bg-blue pl-2">
+    <a *ngFor="let item of menu"
+      [routerLink]="[ item.url ]"
+      routerLinkActive="active"
+      class="list-group-item list-group-item-action bg-transparent d-flex flex-column"
+      ><fa-icon [icon]="item.icon"></fa-icon>{{ item.label }}</a
+    >
+  </div>
+</footer>

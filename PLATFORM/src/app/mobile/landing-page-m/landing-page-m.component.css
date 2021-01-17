@@ -1,0 +1,76 @@
+.title {
+  font-size: 25px;
+  color: #191919;
+}
+
+.title span {
+  font-size: 40px;
+  color: #0081A8;
+}
+
+.description {
+  font-size: 21px;
+  color: #191919;
+}
+
+.bg-blue {
+  background: #B1D3DE;
+}
+
+.secondary-title {
+  font-size: 30px;
+  color: #004257;
+  padding-top: 30px;
+}
+
+
+.card-mvv {
+  background: #FAFAFA;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.25), inset 0px 2px 5px -1px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 295px;
+  padding: 15px 30px;
+}
+
+.title-card {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 150%;
+  text-align: center;
+  color: #E70E0E;
+}
+
+.description-card {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  color: #191919;
+}
+
+fa-icon {
+  padding-right: 10px;
+  font-size: 20px;
+  color: #0098C7;
+}
+
+footer {
+  background: #CFE0E5;
+}
+
+.slogan {
+  font-size: 11px;
+  text-align: right;
+}
+
+.btn-login {
+  color: #fff;
+  background-color: #0098C7;
+  border-color: #0098C7;
+  box-shadow: 0px 4px 5px rgba(0, 66, 87, 0.3);
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+}

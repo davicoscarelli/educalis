@@ -1,0 +1,15 @@
+<div class="d-flex justify-content-center">
+  <div class="container d-flex align-items-center flex-column pt-5">
+  <img src="../../../../assets/img/logo.png" class="w-100" />
+  <div class="w-100 pt-5 pr-3 pl-3">
+    <form [formGroup]="loginForm" class="d-flex flex-column">
+      <input
+        type="text"
+        name="email"
+        placeholder="E-mail"
+        formControlName="email"
+      />
+    </form>
+    <button type="button" class="btn btn-login-form" (click)="esqueceuSenha()">Enviar</button>
+  </div>
+</div>

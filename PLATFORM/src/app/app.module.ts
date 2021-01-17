@@ -23,6 +23,13 @@ import { ProfessoresComponent } from './portal/professores/professores.component
 import { ProfessoresMatematicaComponent } from './portal/professores/professores-matematica/professores-matematica.component';
 import { ListaProfessoresComponent } from './portal/professores/lista-professores/lista-professores.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { LandingPageMComponent } from './mobile/landing-page-m/landing-page-m.component';
+import { FormLoginMComponent } from './mobile/login/form-login-m/form-login-m.component';
+import { TelaInicialComponent } from './mobile/login/tela-inicial/tela-inicial.component';
+import { FormEsqueceuSenhaMComponent } from './mobile/login/form-esqueceu-senha-m/form-esqueceu-senha-m.component';
+import { FormCriarContaMComponent } from './mobile/login/form-criar-conta-m/form-criar-conta-m.component';
+import { PortalMComponent } from './mobile/portal-m/portal-m.component';
+import { DisciplinasMComponent } from './mobile/portal-m/disciplinas-m/disciplinas-m.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +48,14 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     ProfessoresComponent,
     ProfessoresMatematicaComponent,
     ListaProfessoresComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    LandingPageMComponent,
+    FormLoginMComponent,
+    TelaInicialComponent,
+    FormEsqueceuSenhaMComponent,
+    FormCriarContaMComponent,
+    PortalMComponent,
+    DisciplinasMComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,28 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.list-group-item.active {
+  color: #004257;
+  background-color: #004257;
+  border: none;
+  text-align: center;
+  font-size: 12px;
+}
+
+.list-group-item {
+  color: #fafafa;
+  background-color: #fafafa;
+  border: none;
+  text-align: center;
+  font-size: 12px;
+}
+
+.bg-blue {
+  background-color: #B1D3DE;
+}
+
+fa-icon {
+  font-size: 20px;
+}

@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import {
+  faChevronLeft,
+} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-form-criar-conta-m',
@@ -10,6 +13,7 @@ import { Router } from '@angular/router';
 export class FormCriarContaMComponent implements OnInit {
 
   loginForm: FormGroup;
+  faChevronLeft = faChevronLeft;
 
   constructor(private formBuilder: FormBuilder, private route: Router) { }
 
@@ -28,6 +32,10 @@ export class FormCriarContaMComponent implements OnInit {
 
   criarConta() {
     this.route.navigate(['/m/login/login']);
+  }
+
+  back() {
+    this.route.navigate(['/m/login']);
   }
 
 }

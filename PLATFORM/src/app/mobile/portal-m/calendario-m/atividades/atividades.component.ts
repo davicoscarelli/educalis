@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import {
+  faChevronLeft,
+} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-atividades',
@@ -7,9 +11,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AtividadesComponent implements OnInit {
 
-  constructor() { }
+  faChevronLeft = faChevronLeft;
+
+  constructor(private route: Router) { }
 
   ngOnInit(): void {
+  }
+
+  back() {
+    this.route.navigate(['m/portal/calendarios']);
   }
 
 }

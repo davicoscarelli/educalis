@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import {
+  faChevronLeft,
+} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-form-login-m',
@@ -10,6 +13,7 @@ import { Router } from '@angular/router';
 export class FormLoginMComponent implements OnInit {
 
   loginForm: FormGroup;
+  faChevronLeft = faChevronLeft;
 
   constructor(private formBuilder: FormBuilder, private route: Router) { }
 
@@ -26,6 +30,10 @@ export class FormLoginMComponent implements OnInit {
 
   login() {
     this.route.navigate(['/m/portal']);
+  }
+
+  back() {
+    this.route.navigate(['/m/login']);
   }
 
 }

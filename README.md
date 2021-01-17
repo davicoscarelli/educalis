@@ -25,9 +25,15 @@ ou computador.
 
 Utilizar o Educalis é extremamente simples, basta que o estudante acesse a rede Wi-Fi gerada pelo E-hub mais próximo. Ao conectar-se, o estudante tem acesso a nossa plataforma de ensino virtual, contendo materiais didáticos para todas as idades. 
 
-Para mais informações acesse a Wiki desse repositório ou [clique aqui!](https://github.com/davicoscarelli/educalis/wiki/Mesh-Web-Server)
+Para mais informações acesse a Wiki desse repositório [clicando aqui!](https://github.com/davicoscarelli/educalis/wiki/)
 
 
-O Educalis é um projeto inovador que torna possível a Educação a Distância para estudantes de baixa renda sem acesso a internet! O fator chave para a funcionalidade do projeto é a nossa infraestrutura responsável por propagar nossa plataforma. Para que isso seja possível ultilizamos um conjunto dispositivos, conectados sem fio entre si, que criam uma rede a qual pode ser acessada por qualquer pessoa com um smartphone ou computador. A usabilidade é simples, basta que o aluno acesse a rede Wi-Fi gerada pelo E-hub mais próximo para ter acesso a nossa plataforma de ensino virtual, contendo materiais didáticos para todas as idades. A plataforma foi pensada por uma equipe de profissionais para tornar o aprendizado a distância mais proveitoso, tornando assim eficiente o ensino por meio de nosso ecossistema.
 
-***** Imagem Acesse a Wiki para mais detalhes
+## :heart: Nosso time dos sonhos
+
+- [Davi Coscarelli](https://www.linkedin.com/in/davicoscarelli) (Desenvolvedor)
+- [Joyce Souza](https://www.linkedin.com/in/joyce-souza-04819523/) (Negócios)
+- [Juliana Aintablian](https://www.linkedin.com/in/juliana-aintablian/) (Desenvolvedora)
+- [Leonardo Braga](https://www.linkedin.com/in/leonardobbarcelos/) (Educação)
+- [Luan Calil](https://www.linkedin.com/in/luancalil/) (UX Designer)
+- [Maira Manfro](https://www.linkedin.com/in/maira-gazzi-manfro-a1a7b4192/) (Marketing)

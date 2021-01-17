@@ -41,6 +41,6 @@ void handle_NotFound(){
 }
 
 String SendHTML(){
- File source = SD_MMC.open("/Interface/index.html", FILE_READ);
+ File source = SD_MMC.open("/src/index.html", FILE_READ);
  return source.read()
 }

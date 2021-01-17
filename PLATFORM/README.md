@@ -1,7 +1,7 @@
 <h2 align="center"> 
 <img alt="Educalis logo" title="#Educalis" src="src/assets/img/readme/logo.png" width="250px" />
-Expandindo as fronteiras da educação
 </h2>
+<h3>Expandindo as fronteiras da educação</h3>
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/davicoscarelli/educalis">
